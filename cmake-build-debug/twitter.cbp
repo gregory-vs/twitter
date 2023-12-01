@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="twitter"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="twitter">
+				<Option output="/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/twitter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 twitter"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="twitter/fast">
+				<Option output="/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/twitter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 twitter/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/wamp64/www/Repos/twitter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/TP/include/doctest.h">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/TP/include/publicacao.h">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/include/doctest.h">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/include/notificacao.h">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/include/publicacao.h">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/include/sistemabusca.h">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/include/twitter.h">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/include/usuario.h">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/src/main.cpp">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/src/notificacao.cpp">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/src/publicacao.cpp">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/src/sistemabusca.cpp">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/src/twitter.cpp">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/src/usuario.cpp">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

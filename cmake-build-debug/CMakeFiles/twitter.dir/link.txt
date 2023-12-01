@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/twitter.dir/src/main.cpp.o CMakeFiles/twitter.dir/src/notificacao.cpp.o CMakeFiles/twitter.dir/src/publicacao.cpp.o CMakeFiles/twitter.dir/src/sistemabusca.cpp.o CMakeFiles/twitter.dir/src/twitter.cpp.o CMakeFiles/twitter.dir/src/usuario.cpp.o -o twitter 
