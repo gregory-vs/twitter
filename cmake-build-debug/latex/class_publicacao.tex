@@ -1,0 +1,176 @@
+\doxysection{Publicacao Class Reference}
+\label{class_publicacao}\index{Publicacao@{Publicacao}}
+
+
+{\ttfamily \#include $<$publicacao.\+h$>$}
+
+
+
+Collaboration diagram for Publicacao\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{class_publicacao__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Publicacao} (std\+::string u, std\+::string t, int cu, int co)
+\item 
+std\+::string \textbf{ get\+Usuario} ()
+\item 
+void \textbf{ set\+Usuario} (const std\+::string \&novo\+Usuario)
+\item 
+int \textbf{ get\+Curtidas} () const
+\item 
+void \textbf{ set\+Curtida} (int n)
+\item 
+int \textbf{ get\+Compartilhamentos} () const
+\item 
+void \textbf{ set\+Compartilhamentos} (int c)
+\item 
+std\+::string \textbf{ get\+Texto\+Da\+Publicacao} () const
+\item 
+void \textbf{ set\+Texto\+Da\+Publicacao} (const std\+::string \&novo\+Texto)
+\item 
+void \textbf{ imprimir\+Publicacoes} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \textbf{ imprimir\+Publicacoes\+Encontradas} (std\+::vector$<$ \textbf{ Publicacao} $>$ resultados)
+\item 
+static void \textbf{ mandar\+Notificacao\+Curtida} (std\+::string usuario\+Destino, std\+::string usuario\+Origem)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ curtidas}
+\item 
+int \textbf{ compartilhamentos}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\label{class_publicacao_a8675d00e68d1f1356453a8b5ee1b7b67} 
+\index{Publicacao@{Publicacao}!Publicacao@{Publicacao}}
+\index{Publicacao@{Publicacao}!Publicacao@{Publicacao}}
+\doxysubsubsection{Publicacao()}
+{\footnotesize\ttfamily Publicacao\+::\+Publicacao (\begin{DoxyParamCaption}\item[{std\+::string}]{u,  }\item[{std\+::string}]{t,  }\item[{int}]{cu,  }\item[{int}]{co }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\label{class_publicacao_a1f911510056db3fad9ba86598fed6e18} 
+\index{Publicacao@{Publicacao}!getCompartilhamentos@{getCompartilhamentos}}
+\index{getCompartilhamentos@{getCompartilhamentos}!Publicacao@{Publicacao}}
+\doxysubsubsection{getCompartilhamentos()}
+{\footnotesize\ttfamily int Publicacao\+::get\+Compartilhamentos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\label{class_publicacao_a6cd387ddeb45480700101c4adc4428b3} 
+\index{Publicacao@{Publicacao}!getCurtidas@{getCurtidas}}
+\index{getCurtidas@{getCurtidas}!Publicacao@{Publicacao}}
+\doxysubsubsection{getCurtidas()}
+{\footnotesize\ttfamily int Publicacao\+::get\+Curtidas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_publicacao_a6cd387ddeb45480700101c4adc4428b3_icgraph}
+\end{center}
+\end{figure}
+\label{class_publicacao_a776e13c80d302dcea2f5ff6c86271887} 
+\index{Publicacao@{Publicacao}!getTextoDaPublicacao@{getTextoDaPublicacao}}
+\index{getTextoDaPublicacao@{getTextoDaPublicacao}!Publicacao@{Publicacao}}
+\doxysubsubsection{getTextoDaPublicacao()}
+{\footnotesize\ttfamily std\+::string Publicacao\+::get\+Texto\+Da\+Publicacao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\label{class_publicacao_a4668018f7d21ceb3ed55585991c3e48c} 
+\index{Publicacao@{Publicacao}!getUsuario@{getUsuario}}
+\index{getUsuario@{getUsuario}!Publicacao@{Publicacao}}
+\doxysubsubsection{getUsuario()}
+{\footnotesize\ttfamily std\+::string Publicacao\+::get\+Usuario (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\label{class_publicacao_a463838ca7529c549267ab957acebd959} 
+\index{Publicacao@{Publicacao}!imprimirPublicacoes@{imprimirPublicacoes}}
+\index{imprimirPublicacoes@{imprimirPublicacoes}!Publicacao@{Publicacao}}
+\doxysubsubsection{imprimirPublicacoes()}
+{\footnotesize\ttfamily void Publicacao\+::imprimir\+Publicacoes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\label{class_publicacao_a21642b6764a6df0b1ae10dae1d45c14c} 
+\index{Publicacao@{Publicacao}!imprimirPublicacoesEncontradas@{imprimirPublicacoesEncontradas}}
+\index{imprimirPublicacoesEncontradas@{imprimirPublicacoesEncontradas}!Publicacao@{Publicacao}}
+\doxysubsubsection{imprimirPublicacoesEncontradas()}
+{\footnotesize\ttfamily void Publicacao\+::imprimir\+Publicacoes\+Encontradas (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \textbf{ Publicacao} $>$}]{resultados }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_publicacao_a21642b6764a6df0b1ae10dae1d45c14c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_publicacao_a21642b6764a6df0b1ae10dae1d45c14c_icgraph}
+\end{center}
+\end{figure}
+\label{class_publicacao_a266c2cce57e5dca434ae52d176449dd3} 
+\index{Publicacao@{Publicacao}!mandarNotificacaoCurtida@{mandarNotificacaoCurtida}}
+\index{mandarNotificacaoCurtida@{mandarNotificacaoCurtida}!Publicacao@{Publicacao}}
+\doxysubsubsection{mandarNotificacaoCurtida()}
+{\footnotesize\ttfamily static void Publicacao\+::mandar\+Notificacao\+Curtida (\begin{DoxyParamCaption}\item[{std\+::string}]{usuario\+Destino,  }\item[{std\+::string}]{usuario\+Origem }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\label{class_publicacao_a0c8851855e9274481b3e9a1d0645e927} 
+\index{Publicacao@{Publicacao}!setCompartilhamentos@{setCompartilhamentos}}
+\index{setCompartilhamentos@{setCompartilhamentos}!Publicacao@{Publicacao}}
+\doxysubsubsection{setCompartilhamentos()}
+{\footnotesize\ttfamily void Publicacao\+::set\+Compartilhamentos (\begin{DoxyParamCaption}\item[{int}]{c }\end{DoxyParamCaption})}
+
+\label{class_publicacao_a2dfb7312ef10d86ae9bc5b1cb68e3f45} 
+\index{Publicacao@{Publicacao}!setCurtida@{setCurtida}}
+\index{setCurtida@{setCurtida}!Publicacao@{Publicacao}}
+\doxysubsubsection{setCurtida()}
+{\footnotesize\ttfamily void Publicacao\+::set\+Curtida (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+\label{class_publicacao_a60010f80b360f4fc59560d9d394aed0d} 
+\index{Publicacao@{Publicacao}!setTextoDaPublicacao@{setTextoDaPublicacao}}
+\index{setTextoDaPublicacao@{setTextoDaPublicacao}!Publicacao@{Publicacao}}
+\doxysubsubsection{setTextoDaPublicacao()}
+{\footnotesize\ttfamily void Publicacao\+::set\+Texto\+Da\+Publicacao (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{novo\+Texto }\end{DoxyParamCaption})}
+
+\label{class_publicacao_a71ddcbc843b31056b32b011c1077314f} 
+\index{Publicacao@{Publicacao}!setUsuario@{setUsuario}}
+\index{setUsuario@{setUsuario}!Publicacao@{Publicacao}}
+\doxysubsubsection{setUsuario()}
+{\footnotesize\ttfamily void Publicacao\+::set\+Usuario (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{novo\+Usuario }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\label{class_publicacao_acf8488c518e07f0649b40c7783907ec0} 
+\index{Publicacao@{Publicacao}!compartilhamentos@{compartilhamentos}}
+\index{compartilhamentos@{compartilhamentos}!Publicacao@{Publicacao}}
+\doxysubsubsection{compartilhamentos}
+{\footnotesize\ttfamily int Publicacao\+::compartilhamentos}
+
+\label{class_publicacao_a055b72b5b070a8afb13e4fe95ad326d6} 
+\index{Publicacao@{Publicacao}!curtidas@{curtidas}}
+\index{curtidas@{curtidas}!Publicacao@{Publicacao}}
+\doxysubsubsection{curtidas}
+{\footnotesize\ttfamily int Publicacao\+::curtidas}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ publicacao.\+h}\item 
+\textbf{ publicacao.\+cpp}\end{DoxyCompactItemize}

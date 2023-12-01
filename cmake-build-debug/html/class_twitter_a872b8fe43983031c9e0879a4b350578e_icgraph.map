@@ -1,0 +1,11 @@
+<map id="Twitter::procuraUsuario" name="Twitter::procuraUsuario">
+<area shape="rect" id="Node000001" title=" " alt="" coords="245,43,399,69"/>
+<area shape="rect" id="Node000002" href="$class_twitter.html#ae4f10ec32515e6054f7cea9f00c2878f" title=" " alt="" coords="104,5,196,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,41,195,31,196,26,244,36"/>
+<area shape="rect" id="Node000004" href="$class_twitter.html#aaee9541e67a499e3fdff3d9bad67bb1a" title=" " alt="" coords="103,80,197,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="243,76,198,86,197,81,242,71"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,43,55,69"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,40,56,51,54,46,90,35"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="90,77,54,66,56,61,91,72"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="169,67,163,61,150,59,138,61,132,65,130,71,133,79,128,81,125,71,127,62,136,56,150,53,165,56,173,63"/>
+</map>

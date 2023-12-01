@@ -1,0 +1,8 @@
+<map id="Twitter::cadastraUsuario" name="Twitter::cadastraUsuario">
+<area shape="rect" id="Node000001" title=" " alt="" coords="245,29,406,56"/>
+<area shape="rect" id="Node000002" href="$class_twitter.html#aaee9541e67a499e3fdff3d9bad67bb1a" title=" " alt="" coords="103,29,197,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,45,197,45,197,40,229,40"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="169,16,163,10,150,8,138,10,132,14,130,20,133,28,128,30,125,20,127,11,136,5,150,3,165,5,173,12"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,29,55,56"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="87,45,55,45,55,40,87,40"/>
+</map>

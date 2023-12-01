@@ -9,7 +9,12 @@ Além disso, o driver inicial no arquivo main.cpp, que é utilizado para chamar 
 Para executar o programa basta seguir o passo a passo abaixo:
 
 1- abra o terminal na raiz desse projeto ./twitter
+
 2- execute o comando cd /cmake-build-debug
+
 3- execute o comando make clean
+
 4- execute o comando make all
+
 4- execute o comando ./twitter
+

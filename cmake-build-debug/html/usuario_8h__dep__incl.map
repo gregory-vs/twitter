@@ -1,0 +1,23 @@
+<map id="usuario.h" name="usuario.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="357,5,431,32"/>
+<area shape="rect" id="Node000002" href="$notificacao_8cpp.html" title=" " alt="" coords="5,155,114,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="344,40,233,82,150,122,84,156,81,152,148,117,230,78,342,35"/>
+<area shape="rect" id="Node000003" href="$sistemabusca_8cpp.html" title=" " alt="" coords="473,155,601,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="447,33,482,51,514,78,525,97,533,118,539,154,534,154,527,119,520,99,509,82,479,56,444,38"/>
+<area shape="rect" id="Node000004" href="$sistemabusca_8h.html" title=" " alt="" coords="386,80,499,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="413,44,436,78,432,81,409,47"/>
+<area shape="rect" id="Node000005" href="$twitter_8cpp.html" title=" " alt="" coords="368,155,450,181"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="383,47,375,75,375,106,387,132,401,153,396,156,382,134,370,107,369,75,378,45"/>
+<area shape="rect" id="Node000006" href="$twitter_8h.html" title=" " alt="" coords="243,80,311,107"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="363,43,299,82,296,77,360,38"/>
+<area shape="rect" id="Node000009" href="$usuario_8cpp.html" title=" " alt="" coords="574,80,662,107"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="447,34,580,77,578,82,445,39"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="472,114,522,152,519,156,469,119"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="432,122,417,155,412,153,428,120"/>
+<area shape="poly" id="edge9_Node000006_Node000002" title=" " alt="" coords="229,113,98,157,97,152,228,108"/>
+<area shape="poly" id="edge11_Node000006_Node000005" title=" " alt="" coords="314,112,387,152,384,156,311,117"/>
+<area shape="rect" id="Node000007" href="$main_8cpp.html" title=" " alt="" coords="270,155,345,181"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="291,120,305,153,300,155,286,122"/>
+<area shape="rect" id="Node000008" href="$publicacao_8cpp.html" title=" " alt="" coords="137,155,246,181"/>
+<area shape="poly" id="edge10_Node000006_Node000008" title=" " alt="" coords="252,119,208,156,204,152,249,115"/>
+</map>

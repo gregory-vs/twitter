@@ -1,0 +1,143 @@
+\doxysection{Usuario Class Reference}
+\label{class_usuario}\index{Usuario@{Usuario}}
+
+
+{\ttfamily \#include $<$usuario.\+h$>$}
+
+
+
+Collaboration diagram for Usuario\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{class_usuario__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Usuario} ()
+\item 
+\textbf{ $\sim$\+Usuario} ()
+\item 
+std\+::string \textbf{ get\+Nome} ()
+\item 
+void \textbf{ set\+Nome} (const std\+::string \&novo\+Nome)
+\item 
+std\+::vector$<$ \textbf{ Publicacao} $>$ \textbf{ get\+Publicacoes} ()
+\item 
+void \textbf{ adicionar\+Publicacao} (\textbf{ Publicacao} \&nova\+Publicacao)
+\item 
+std\+::vector$<$ \textbf{ Usuario} $>$ \textbf{ get\+Amigos} ()
+\item 
+void \textbf{ imprimir\+Publicacoes} ()
+\item 
+std\+::vector$<$ \textbf{ Publicacao} $>$ \textbf{ busca\+Por\+Palavra\+Chave} (const std\+::string \&palavra\+Chave)
+\item 
+void \textbf{ adicionar\+Notificacao} (const std\+::string \&mensagem)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\label{class_usuario_aa85a5371a098dfba5449140d9b8a472f} 
+\index{Usuario@{Usuario}!Usuario@{Usuario}}
+\index{Usuario@{Usuario}!Usuario@{Usuario}}
+\doxysubsubsection{Usuario()}
+{\footnotesize\ttfamily Usuario\+::\+Usuario (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+\label{class_usuario_ab4096b0b8300ecb47b10c555fb09c997} 
+\index{Usuario@{Usuario}!````~Usuario@{$\sim$Usuario}}
+\index{````~Usuario@{$\sim$Usuario}!Usuario@{Usuario}}
+\doxysubsubsection{$\sim$Usuario()}
+{\footnotesize\ttfamily Usuario\+::$\sim$\+Usuario (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\label{class_usuario_a2248ff33607db5b350f7f1fbca69644a} 
+\index{Usuario@{Usuario}!adicionarNotificacao@{adicionarNotificacao}}
+\index{adicionarNotificacao@{adicionarNotificacao}!Usuario@{Usuario}}
+\doxysubsubsection{adicionarNotificacao()}
+{\footnotesize\ttfamily void Usuario\+::adicionar\+Notificacao (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{mensagem }\end{DoxyParamCaption})}
+
+\label{class_usuario_ac49ba4850a199fffe8bd8b032fb60ca2} 
+\index{Usuario@{Usuario}!adicionarPublicacao@{adicionarPublicacao}}
+\index{adicionarPublicacao@{adicionarPublicacao}!Usuario@{Usuario}}
+\doxysubsubsection{adicionarPublicacao()}
+{\footnotesize\ttfamily void Usuario\+::adicionar\+Publicacao (\begin{DoxyParamCaption}\item[{\textbf{ Publicacao} \&}]{nova\+Publicacao }\end{DoxyParamCaption})}
+
+\label{class_usuario_a66ae5585212162330f1c3c7f3555eb91} 
+\index{Usuario@{Usuario}!buscaPorPalavraChave@{buscaPorPalavraChave}}
+\index{buscaPorPalavraChave@{buscaPorPalavraChave}!Usuario@{Usuario}}
+\doxysubsubsection{buscaPorPalavraChave()}
+{\footnotesize\ttfamily std\+::vector$<$ \textbf{ Publicacao} $>$ Usuario\+::busca\+Por\+Palavra\+Chave (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{palavra\+Chave }\end{DoxyParamCaption})}
+
+\label{class_usuario_a183dce639d5aacfc40701d7dcb2b15fc} 
+\index{Usuario@{Usuario}!getAmigos@{getAmigos}}
+\index{getAmigos@{getAmigos}!Usuario@{Usuario}}
+\doxysubsubsection{getAmigos()}
+{\footnotesize\ttfamily std\+::vector$<$ \textbf{ Usuario} $>$ Usuario\+::get\+Amigos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\label{class_usuario_a9fd39b37a8f38cfd990aba2234de9ea0} 
+\index{Usuario@{Usuario}!getNome@{getNome}}
+\index{getNome@{getNome}!Usuario@{Usuario}}
+\doxysubsubsection{getNome()}
+{\footnotesize\ttfamily std\+::string Usuario\+::get\+Nome (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_usuario_a9fd39b37a8f38cfd990aba2234de9ea0_icgraph}
+\end{center}
+\end{figure}
+\label{class_usuario_a93354f35af0776f2b8c76c7605938eda} 
+\index{Usuario@{Usuario}!getPublicacoes@{getPublicacoes}}
+\index{getPublicacoes@{getPublicacoes}!Usuario@{Usuario}}
+\doxysubsubsection{getPublicacoes()}
+{\footnotesize\ttfamily std\+::vector$<$ \textbf{ Publicacao} $>$ Usuario\+::get\+Publicacoes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_usuario_a93354f35af0776f2b8c76c7605938eda_icgraph}
+\end{center}
+\end{figure}
+\label{class_usuario_ab23313ddf44654061e3ec30909fdf0b1} 
+\index{Usuario@{Usuario}!imprimirPublicacoes@{imprimirPublicacoes}}
+\index{imprimirPublicacoes@{imprimirPublicacoes}!Usuario@{Usuario}}
+\doxysubsubsection{imprimirPublicacoes()}
+{\footnotesize\ttfamily void Usuario\+::imprimir\+Publicacoes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_usuario_ab23313ddf44654061e3ec30909fdf0b1_cgraph}
+\end{center}
+\end{figure}
+\label{class_usuario_a665efd496a8402b2304154caa82ac278} 
+\index{Usuario@{Usuario}!setNome@{setNome}}
+\index{setNome@{setNome}!Usuario@{Usuario}}
+\doxysubsubsection{setNome()}
+{\footnotesize\ttfamily void Usuario\+::set\+Nome (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{novo\+Nome }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_usuario_a665efd496a8402b2304154caa82ac278_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ usuario.\+h}\item 
+\textbf{ usuario.\+cpp}\end{DoxyCompactItemize}

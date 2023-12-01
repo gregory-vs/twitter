@@ -1,0 +1,11 @@
+<map id="Publicacao::getCurtidas" name="Publicacao::getCurtidas">
+<area shape="rect" id="Node000001" title=" " alt="" coords="599,31,759,57"/>
+<area shape="rect" id="Node000002" href="$class_publicacao.html#a21642b6764a6df0b1ae10dae1d45c14c" title=" " alt="" coords="341,23,551,65"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="584,47,552,47,552,41,584,41"/>
+<area shape="rect" id="Node000003" href="$class_twitter.html#ae4f10ec32515e6054f7cea9f00c2878f" title=" " alt="" coords="152,5,244,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="325,34,243,26,244,21,326,29"/>
+<area shape="rect" id="Node000005" href="$class_usuario.html#ab23313ddf44654061e3ec30909fdf0b1" title=" " alt="" coords="103,56,293,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="326,59,294,62,293,57,325,54"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="137,21,55,21,55,16,137,16"/>
+</map>

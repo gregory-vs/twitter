@@ -1,0 +1,29 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,240,55,267"/>
+<area shape="rect" id="Node000002" href="$class_twitter.html#ae4f10ec32515e6054f7cea9f00c2878f" title=" " alt="" coords="104,189,196,216"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,241,102,220,104,225,56,246"/>
+<area shape="rect" id="Node000005" href="$class_usuario.html#a9fd39b37a8f38cfd990aba2234de9ea0" title=" " alt="" coords="288,256,413,283"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="55,252,272,263,272,268,55,257"/>
+<area shape="rect" id="Node000010" href="$class_twitter.html#aaee9541e67a499e3fdff3d9bad67bb1a" title=" " alt="" coords="103,315,197,341"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="54,265,115,304,112,308,51,269"/>
+<area shape="rect" id="Node000003" href="$class_twitter.html#afd1c105c6fd56984f9f7fa495ff8a9b8" title=" " alt="" coords="259,5,442,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="154,188,185,126,211,89,243,58,249,54,252,58,247,62,215,93,190,129,159,190"/>
+<area shape="rect" id="Node000004" href="$class_sistema_busca.html#a78420300d0f9fa38fb1ce0c9bfbe2f15" title=" " alt="" coords="247,72,454,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="163,187,198,156,244,124,255,119,257,124,246,129,201,160,166,191"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="180,214,246,241,273,250,272,255,244,247,178,219"/>
+<area shape="rect" id="Node000006" href="$class_usuario.html#a93354f35af0776f2b8c76c7605938eda" title=" " alt="" coords="269,139,431,165"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="195,188,244,175,275,167,276,172,246,180,197,193"/>
+<area shape="rect" id="Node000007" href="$class_publicacao.html#a21642b6764a6df0b1ae10dae1d45c14c" title=" " alt="" coords="245,189,455,232"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="196,202,230,203,229,208,196,207"/>
+<area shape="rect" id="Node000009" href="$class_twitter.html#a872b8fe43983031c9e0879a4b350578e" title=" " alt="" coords="273,307,427,333"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="163,215,197,254,221,275,246,292,260,299,257,304,244,297,217,279,194,258,159,218"/>
+<area shape="rect" id="Node000008" href="$class_publicacao.html#a6cd387ddeb45480700101c4adc4428b3" title=" " alt="" coords="503,197,663,224"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="456,208,488,208,488,213,456,213"/>
+<area shape="poly" id="edge13_Node000010_Node000005" title=" " alt="" coords="187,312,244,292,272,284,273,290,246,297,188,317"/>
+<area shape="poly" id="edge15_Node000010_Node000009" title=" " alt="" coords="197,323,257,321,258,326,198,329"/>
+<area shape="poly" id="edge14_Node000010_Node000010" title=" " alt="" coords="128,315,125,306,127,297,136,290,150,288,165,291,173,297,169,301,163,296,150,293,138,295,132,300,130,306,133,313"/>
+<area shape="rect" id="Node000011" href="$class_twitter.html#a881ce52725afa152a06e9c56b72f1415" title=" " alt="" coords="270,357,431,384"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="198,335,270,351,269,356,197,341"/>
+<area shape="rect" id="Node000012" href="$class_usuario.html#a665efd496a8402b2304154caa82ac278" title=" " alt="" coords="520,357,646,384"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="431,368,505,368,505,373,431,373"/>
+</map>

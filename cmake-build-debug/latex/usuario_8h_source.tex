@@ -1,0 +1,36 @@
+\doxysection{usuario.\+h}
+\label{usuario_8h_source}\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ TWITTER\_USUARIO\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ TWITTER\_USUARIO\_H}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}publicacao.h"{}}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}notificacao.h"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{class\ }Usuario\ \{}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00012\ \ \ \ \ std::string\ nome;}
+\DoxyCodeLine{00013\ \ \ \ \ std::vector<Publicacao>\ publicacoes;}
+\DoxyCodeLine{00014\ \ \ \ \ std::vector<Usuario>\ amigos;}
+\DoxyCodeLine{00015\ \ \ \ \ std::vector<Notificacao>\ notificacoes;}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00018\ \ \ \ \ Usuario();}
+\DoxyCodeLine{00019\ \ \ \ \ \string~Usuario();}
+\DoxyCodeLine{00020\ \ \ \ \ std::string\ getNome();}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{void}\ setNome(\textcolor{keyword}{const}\ std::string\&\ novoNome);}
+\DoxyCodeLine{00022\ \ \ \ \ std::vector<Publicacao>\ getPublicacoes();}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{void}\ adicionarPublicacao(Publicacao\&\ novaPublicacao);}
+\DoxyCodeLine{00024\ \ \ \ \ std::vector<Usuario>\ getAmigos();}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ imprimirPublicacoes();}
+\DoxyCodeLine{00026\ \ \ \ \ std::vector<Publicacao>\ buscaPorPalavraChave(\textcolor{keyword}{const}\ std::string\&\ palavraChave);}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keywordtype}{void}\ adicionarNotificacao(\textcolor{keyword}{const}\ std::string\&\ mensagem);}
+\DoxyCodeLine{00028\ \};}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

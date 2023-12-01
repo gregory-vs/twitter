@@ -1,0 +1,23 @@
+<map id="sistemabusca.h" name="sistemabusca.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="102,5,215,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,229,61,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,34,93,84,66,118,45,156,37,185,34,214,29,214,31,184,40,154,62,115,89,80,141,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="260,229,313,256"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,30,232,48,276,75,318,110,336,130,350,154,354,173,347,191,335,208,320,222,316,218,331,204,343,189,348,172,345,156,331,134,314,113,273,79,230,53,191,35"/>
+<area shape="rect" id="Node000004" href="$publicacao_8h.html" title=" " alt="" coords="74,155,168,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="158,33,130,140,125,139,153,32"/>
+<area shape="rect" id="Node000007" href="$usuario_8h.html" title=" " alt="" coords="159,80,233,107"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="167,31,185,65,180,68,162,34"/>
+<area shape="poly" id="edge7_Node000004_Node000002" title=" " alt="" coords="107,184,62,221,58,217,104,180"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="151,179,247,221,245,226,149,184"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="85,229,157,256"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="124,182,124,214,118,214,118,182"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="180,229,233,256"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="138,180,182,217,179,221,134,184"/>
+<area shape="poly" id="edge13_Node000007_Node000002" title=" " alt="" coords="159,105,110,124,85,138,64,156,47,185,39,215,34,214,43,183,60,153,82,134,107,119,157,100"/>
+<area shape="poly" id="edge12_Node000007_Node000003" title=" " alt="" coords="202,106,213,141,233,180,263,217,259,220,228,183,208,143,197,108"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="185,109,146,146,143,142,181,105"/>
+<area shape="rect" id="Node000008" href="$notificacao_8h.html" title=" " alt="" coords="242,155,336,181"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="214,105,263,143,259,147,210,109"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="291,182,290,214,285,214,286,182"/>
+</map>
