@@ -1,3 +1,4 @@
+
 #include "../include/twitter.h"
 #include "../include/usuario.h"
 #include "../include/publicacao.h"
@@ -5,6 +6,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -171,13 +173,17 @@ void Twitter::func(Usuario usuarioLogado)
         }
         if(opcaoEscolhida == 3)
         {
-
+            cout << "Esta opcao ainda não foi implementada, aguarde por novidades!";
         }
         if(opcaoEscolhida == 4)
         {
             Usuario usuarioBusca = procuraUsuario(usuarioLogado.getNome());
 
             Publicacao::imprimirPublicacoesEncontradas(usuarioBusca.getPublicacoes());
+        }
+        if(opcaoEscolhida == 5)
+        {
+            Twitter::excluirUsuario(usuarioLogado.getNome());
         }
 
         if(opcaoEscolhida == 0)
@@ -196,3 +202,13 @@ void Twitter::adicionarPublicacaoAoSistema(const std::string& nomeUsuario, const
         }
     }
 }
+
+void Twitter::excluirUsuario(const basic_string<char>& nome) {
+    auto it = remove_if(usuarios.begin(), usuarios.end(),
+                             [nome](Usuario usuario) {
+                                 return usuario.getNome() == nome;
+                             });
+
+    usuarios.erase(it, usuarios.end());
+}
+

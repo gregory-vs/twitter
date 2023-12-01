@@ -82,12 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/TP/include/doctest.h">
-			<Option target="twitter"/>
-		</Unit>
-		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/TP/include/publicacao.h">
-			<Option target="twitter"/>
-		</Unit>
 		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/include/doctest.h">
 			<Option target="twitter"/>
 		</Unit>
@@ -104,6 +98,9 @@
 			<Option target="twitter"/>
 		</Unit>
 		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/include/usuario.h">
+			<Option target="twitter"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/src/TesteTwitter.cpp">
 			<Option target="twitter"/>
 		</Unit>
 		<Unit filename="/mnt/c/wamp64/www/Repos/twitter/src/main.cpp">

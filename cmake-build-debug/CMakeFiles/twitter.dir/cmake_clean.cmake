@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/twitter.dir/src/TesteTwitter.cpp.o"
+  "CMakeFiles/twitter.dir/src/TesteTwitter.cpp.o.d"
   "CMakeFiles/twitter.dir/src/main.cpp.o"
   "CMakeFiles/twitter.dir/src/main.cpp.o.d"
   "CMakeFiles/twitter.dir/src/notificacao.cpp.o"

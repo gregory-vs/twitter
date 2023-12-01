@@ -4,8 +4,6 @@ project(twitter)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(twitter
-        TP/include/publicacao.h
-        TP/include/doctest.h
         src/main.cpp
         src/notificacao.cpp
         src/publicacao.cpp
@@ -17,4 +15,6 @@ add_executable(twitter
         include/publicacao.h
         include/sistemabusca.h
         include/twitter.h
-        include/usuario.h)
+        include/usuario.h
+        src/TesteTwitter.cpp
+)

@@ -129,6 +129,30 @@ twitter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twitter.dir/build.make CMakeFiles/twitter.dir/build
 .PHONY : twitter/fast
 
+src/TesteTwitter.o: src/TesteTwitter.cpp.o
+.PHONY : src/TesteTwitter.o
+
+# target to build an object file
+src/TesteTwitter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twitter.dir/build.make CMakeFiles/twitter.dir/src/TesteTwitter.cpp.o
+.PHONY : src/TesteTwitter.cpp.o
+
+src/TesteTwitter.i: src/TesteTwitter.cpp.i
+.PHONY : src/TesteTwitter.i
+
+# target to preprocess a source file
+src/TesteTwitter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twitter.dir/build.make CMakeFiles/twitter.dir/src/TesteTwitter.cpp.i
+.PHONY : src/TesteTwitter.cpp.i
+
+src/TesteTwitter.s: src/TesteTwitter.cpp.s
+.PHONY : src/TesteTwitter.s
+
+# target to generate assembly for a file
+src/TesteTwitter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twitter.dir/build.make CMakeFiles/twitter.dir/src/TesteTwitter.cpp.s
+.PHONY : src/TesteTwitter.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -282,6 +306,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... twitter"
+	@echo "... src/TesteTwitter.o"
+	@echo "... src/TesteTwitter.i"
+	@echo "... src/TesteTwitter.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

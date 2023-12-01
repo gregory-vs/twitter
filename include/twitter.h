@@ -13,6 +13,7 @@ public:
      Usuario cadastraUsuario(const std::string& nomeUsuario);
      Usuario login();
      void func(Usuario usuarioLogado);
+     void excluirUsuario(const std::basic_string<char>& nome);
      void adicionarPublicacaoAoSistema(const std::string& nomeUsuario, const std::string& texto);
 
 };

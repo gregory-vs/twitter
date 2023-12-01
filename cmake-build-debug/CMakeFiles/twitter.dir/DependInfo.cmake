@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/c/wamp64/www/Repos/twitter/src/TesteTwitter.cpp" "CMakeFiles/twitter.dir/src/TesteTwitter.cpp.o" "gcc" "CMakeFiles/twitter.dir/src/TesteTwitter.cpp.o.d"
   "/mnt/c/wamp64/www/Repos/twitter/src/main.cpp" "CMakeFiles/twitter.dir/src/main.cpp.o" "gcc" "CMakeFiles/twitter.dir/src/main.cpp.o.d"
   "/mnt/c/wamp64/www/Repos/twitter/src/notificacao.cpp" "CMakeFiles/twitter.dir/src/notificacao.cpp.o" "gcc" "CMakeFiles/twitter.dir/src/notificacao.cpp.o.d"
   "/mnt/c/wamp64/www/Repos/twitter/src/publicacao.cpp" "CMakeFiles/twitter.dir/src/publicacao.cpp.o" "gcc" "CMakeFiles/twitter.dir/src/publicacao.cpp.o.d"
