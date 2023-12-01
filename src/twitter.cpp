@@ -184,6 +184,8 @@ void Twitter::func(Usuario usuarioLogado)
         if(opcaoEscolhida == 5)
         {
             Twitter::excluirUsuario(usuarioLogado.getNome());
+
+            opcaoEscolhida = 0;
         }
 
         if(opcaoEscolhida == 0)
